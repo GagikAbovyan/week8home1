@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Week8homework1</string>
+    <string name="save">Save</string>
+    <string name="read">Read</string>
+    <string name="text">Text</string>
+    <string name="save_in_app">Save In App</string>
+    <string name="save_in_mobile">Save in Mobile</string>
+    <string name="file_name">file name</string>
+    <string name="file_created">File Created</string>
+    <string name="fail">Fail</string>
+    <string name="input_file_name">input file name</string>
+    <string name="input_text">input text</string>
+    <string name="not_file">not file</string>
+    <string name="unsupported">unsupported</string>
+    <string name="error">error</string>
+    <string name="illegal_argument">illegal argument</string>
+</resources>

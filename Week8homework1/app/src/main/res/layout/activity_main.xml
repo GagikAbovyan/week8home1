@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/color_background"
+    tools:context="vtc.room.a101.week8homework1.MainActivity">
+
+    <EditText
+        android:id="@+id/edit_file_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_5"
+        android:hint="@string/input_file_name"
+        android:inputType="text" />
+
+     <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_5"
+        android:hint="@string/input_text"
+        android:inputType="text" />
+
+
+
+    <TextView
+        android:id="@+id/read_text"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="@dimen/size_20"
+        android:layout_marginTop="@dimen/margin_5"
+        android:text="@string/text"
+        />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/internal_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/internal_button"
+                android:text="@string/save_in_app"
+                />
+
+            <RadioButton
+                android:id="@+id/external_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/external_button"
+                android:layout_alignParentEnd="true"
+                android:text="@string/save_in_mobile"
+                />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/save_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/margin_50"
+            android:background="@color/save_button_color"
+            android:text="@string/save"
+            />
+
+        <Button
+            android:id="@+id/read_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/margin_5"
+            android:background="@color/read_button_color"
+            android:text="@string/read"
+            />
+
+    </RadioGroup>
+
+</LinearLayout>
